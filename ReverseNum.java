@@ -9,7 +9,8 @@ int l=num.length();
 for(int i=l-1;i>=0;i--)
 rev=rev+num.charAt(i);
 if(num.equals(rev))
-System.out.println("entered num is palindrome "+rev);
+System.out.println("the num is palindrome "+rev);
 else
-System.out.println("entered num is not palindrome "+rev);
-}}
+System.out.println("the num is not palindrome "+rev);
+}
+}
